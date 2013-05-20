@@ -1,5 +1,7 @@
 # Conflate::Rails
 
+This is a Rails-specific wrapper around [conflate].
+
 Load YAML files in your config directory into the Rails.application.config.
 This is most useful when using a tool like Puppet or Chef to overwrite the
 configuration files on the production servers, as an alternative to using
@@ -53,3 +55,5 @@ Nothing to do! With this gem, Conflate automatically puts config entries into Ra
 3. Commit your changes (`git commit -am 'Add some feature'`)
 4. Push to the branch (`git push origin my-new-feature`)
 5. Create new Pull Request
+
+[conflate]:https://rubygems.org/gems/conflate

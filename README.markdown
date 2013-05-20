@@ -1,6 +1,12 @@
 # Conflate::Rails
 
 Load YAML files in your config directory into the Rails.application.config.
+This is most useful when using a tool like Puppet or Chef to overwrite the
+configuration files on the production servers, as an alternative to using
+environment variables to make these changes.
+
+**Note**: This is super alpha, but we use this pattern a lot in our
+applications and think it can be really helpful.
 
 ## Example
 

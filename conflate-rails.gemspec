@@ -3,14 +3,18 @@ lib = File.expand_path('../lib', __FILE__)
 $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
 require 'conflate/rails/version'
 
+authors = {
+  "Patrick Byrne" => "patrick.byrne@sportngin.com",
+}
+
 Gem::Specification.new do |spec|
   spec.name          = "conflate-rails"
   spec.version       = Conflate::Rails::VERSION
-  spec.authors       = ["TODO: Write your name"]
-  spec.email         = ["TODO: Write your email address"]
-  spec.description   = %q{TODO: Write a gem description}
-  spec.summary       = %q{TODO: Write a gem summary}
-  spec.homepage      = ""
+  spec.authors       = authors.keys
+  spec.email         = authors.values
+  spec.description   = %q{Load YAML files in your config directory into the Rails.application.config.}
+  spec.summary       = %q{Load YAML files in your config directory into the Rails.application.config.}
+  spec.homepage      = "https://github.com/sportngin/conflate-rails"
   spec.license       = "MIT"
 
   spec.files         = `git ls-files`.split($/)

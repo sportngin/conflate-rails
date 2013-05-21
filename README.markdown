@@ -1,4 +1,5 @@
-# Conflate::Rails
+Conflate::Rails
+===============
 
 This is a Rails-specific wrapper around [conflate].
 
@@ -10,7 +11,8 @@ environment variables to make these changes.
 **Note**: This is super alpha, but we use this pattern a lot in our
 applications and think it can be really helpful.
 
-## Example
+Example
+-------
 
 Let's suppose you have a file 'config/statsd.yml', with the following contents:
 
@@ -29,7 +31,8 @@ Rails.application.config.statsd
 
 Use this information in your application or other initializers.
 
-## Installation
+Installation
+------------
 
 Add this line to your application's Gemfile:
 
@@ -43,11 +46,13 @@ Or install it yourself as:
 
     $ gem install conflate-rails
 
-## Usage
+Usage
+-----
 
 Nothing to do! With this gem, Conflate automatically puts config entries into Rails.application.config.
 
-## Contributing
+Contributing
+------------
 
 1. Fork it
 2. Create your feature branch (`git checkout -b my-new-feature`)
@@ -55,4 +60,15 @@ Nothing to do! With this gem, Conflate automatically puts config entries into Ra
 4. Push to the branch (`git push origin my-new-feature`)
 5. Create new Pull Request
 
+Around the Web
+--------------
+
+* [conflate on GitHub][conflate]
+* [conflate on RubyGems][conflate-gem]
+* [conflate-rails on GitHub][conflate-rails]
+* [conflate-rails on RubyGems][conflate-rails-gem]
+
+[conflate-rails]:https://github.com/sportngin/conflate-rails
+[conflate-rails-gem]:https://rubygems.org/gems/conflate-rails
 [conflate]:https://github.com/sportngin/conflate
+[conflate-gem]:https://rubygems.org/gems/conflate

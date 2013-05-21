@@ -55,4 +55,4 @@ Nothing to do! With this gem, Conflate automatically puts config entries into Ra
 4. Push to the branch (`git push origin my-new-feature`)
 5. Create new Pull Request
 
-[conflate]:https://rubygems.org/gems/conflate
+[conflate]:https://github.com/sportngin/conflate
